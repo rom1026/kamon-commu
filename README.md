@@ -34,8 +34,9 @@ URL	：
 | encrypted_password  | string              | null: false              |
 | last_name           | string              | null: false              |
 | first_name          | string              | null: false              |
-| kamon_id            | integer             | null: false              |
 | birth_date          | date                | null: false              |
+| kamon_id            | integer             | null: false              |
+
 
 ### Association
 

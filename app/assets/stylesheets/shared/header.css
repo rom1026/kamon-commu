@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-page-header {
+  width: 100vw;
+  padding: 2vh 7vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.search-bar-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.furima-icon {
+  width: 250px;
+  margin-right: 10vw;
+}
+
+.search-form {
+  width: 65vw;
+  height: 5vh;
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: flex-end;
+}
+
+.search-form>.input-box {
+  width: 50%;
+  height: 5vh;
+  padding-left: 10px;
+}
+
+.search-button {
+  width: 5vh;
+  border: 0;
+  cursor: pointer;
+  background-color: gray;
+  padding: 8px;
+}
+
+.search-icon {
+  width: 100%;
+}
+
+.nav {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1vh 0;
+}
+
+.lists-left {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-around;
+  margin-top: 1vh ;
+}
+
+.check-list {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: white;
+}
+
+.lists-right {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+
+.user-nickname {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: white;
+  font-weight: bold;
+}
+
+
+.logout {
+  text-decoration: none;
+  color: white;
+}
+
+.login {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.9em;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  border: 1px white solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+
+.sign-up {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.9em;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  border: 1px white solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}

@@ -1,0 +1,49 @@
+
+
+/* 画面上部の「人生を変えるフリマアプリ」帯部分 */
+.title-contents {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh 20vw;
+  padding-bottom: 10vh;
+  color: black;
+  background-color: silver;
+}
+
+.secound-title-contents{
+}
+
+.kamon_yurai {
+  width: 100%;
+  margin-right: 10vw;
+}
+
+.service-title {
+  font-size: 8vh;
+  text-align: center;
+}
+
+.service-explain {
+  font-size: 2.5vh;
+  line-height: 40px;
+}
+
+.kensaku-contents{
+  background-color: white;
+  margin: 10px;
+}
+
+.daimei{
+  border: black;
+}
+
+.name-list{
+  color: black;
+  text-align: center;
+}

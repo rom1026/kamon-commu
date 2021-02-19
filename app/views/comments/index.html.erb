@@ -1,2 +1,48 @@
-<h1>Comments#index</h1>
-<p>Find me in app/views/comments/index.html.erb</p>
+<%= render "shared/header" %>
+
+  <div class='title-contents'>
+    <div class='secound-title-contents'>
+      <%= link_to image_tag("トップページ画像.jpg", class:"kamon_yurai"), "/" %>
+    <h2 class='service-title'>
+      家紋とは
+    </h2>
+    <p class='service-explain'>
+      「源平藤橘（げんぺいとうきつ）」と呼ばれる源氏、平氏、藤原氏、橘氏といった強力な氏族が最も名を馳せていた時代、地方に移り住んだ氏族の一部が他の同じ氏族の人間と区別を図るため土地の名前などを自分の家名（屋号）とし、それが後の名字となり、
+    </p>
+    <p class='service-explain'>
+      家紋は家の独自性を示す固有の目印的な紋章として生まれ、名字を表す紋章として生まれたと言われている。
+    </p>
+
+    <div class='kensaku-contents'>
+    <p class='daimei'>
+    ・家紋で絞る
+    </p>
+    　　
+    <%= link_to image_tag("あらら.png", class:"kamon_yurai"), "/" %>
+    </div>
+
+    <div class='kensaku-contents'>
+    <p class='daimei'>
+    ・名前で絞る
+    </p>
+    　　
+      <li><%= link_to '・島野　・鈴木　・長嶋　', "#", class: "name-list" %></li>
+    </div>
+
+    <div class='kensaku-contents'>
+    <p class='daimei'>
+    ・出身地で絞る
+    </p>
+    　　
+    <%= link_to image_tag("都道府県.png", class:"kamon_yurai"), "/" %>
+    </div>
+
+
+  </div>
+</div>
+
+<%= link_to("#", class: 'purchase-btn') do %>
+  <span class='purchase-btn-text'>丸に横木瓜</span>
+  <%= image_tag '丸に木瓜.png' , size: '190x50' ,class: "purchase-btn-icon" %>
+<% end %>
+<%= render "shared/footer" %>
